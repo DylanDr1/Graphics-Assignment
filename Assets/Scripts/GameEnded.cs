@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameEnded : MonoBehaviour
 {
     public static bool GameEnd = false;
-
+    public GameObject cube;
+    public Material Basic;
     public GameObject GameEndedUI;
 
     private void OnTriggerEnter(Collider other)
