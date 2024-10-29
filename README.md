@@ -69,6 +69,7 @@ Starting off with the main shader being used in the scene, being the toon shader
 
 In terms of how it was used, I used the given toon shader from the lectures as a base, and built off of that, adding in an extra area for the light to be applied to, having this extra area can allow the shader to have a little more visual appeal as well.
 
+![ToonCode](https://github.com/user-attachments/assets/2b5d736f-5312-462b-8c3e-eeaeb1002cf7)
 ![Toon](https://github.com/user-attachments/assets/84b47f53-6c12-4b8d-8ac0-ecb203ee894d)
 
 Hologram
@@ -77,7 +78,9 @@ For the second shader adding in the Hologram felt like the correct addition. Thi
 
 For the implementation of it, using the hologram shader that was provided in the lecture notes was the main base for the shader, however playing around with it a little bit, I increased the rim lighting on it, and increased how bright the center of the Shader was.
 
-![Holo](https://github.com/user-attachments/assets/13cddc50-6511-45b4-8729-6d8e2909dbbe)
+![Bright](https://github.com/user-attachments/assets/70d9c780-92f9-4f2d-8594-3f4c71219c85)
+![Holo](https://github.com/user-attachments/assets/83d3a8aa-712c-4a1b-8e66-21c3c89681d6)
+
 
 # Sources
 
