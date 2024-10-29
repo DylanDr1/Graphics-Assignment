@@ -25,14 +25,14 @@ Shader "Custom/AmbientSpecularShader"
 
         void surf(Input IN, inout SurfaceOutput o)
         {
-            // Albedo from base texture and color tint
+           
             fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
             o.Albedo = c.rgb;
 
-            // Ambient lighting is handled automatically by Unity's lighting system
+         
 
-            // Specular setup using the provided Blinn-Phong lighting model
-            o.Specular = _Shininess; // Shininess value affecting the specular
+          
+            o.Specular = _Shininess; 
         }
         ENDCG
     }

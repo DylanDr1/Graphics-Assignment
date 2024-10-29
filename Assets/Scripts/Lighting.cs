@@ -8,7 +8,7 @@ public class Lighting : MonoBehaviour
    public Material Basic;
    public Material specular;
     public Material specularAmb;
-    public Material hologram;
+    public GameObject Particles;
 
     // Update is called once per frame
     void Update()
@@ -17,26 +17,31 @@ public class Lighting : MonoBehaviour
         {
             this.GetComponent<Light>().enabled = false;
             cube.GetComponent<MeshRenderer>().material = Basic;
+            Particles.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             this.GetComponent<Light>().enabled = true;
             cube.GetComponent<MeshRenderer>().material = Basic;
+            Particles.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha3))
         {
             cube.GetComponent<MeshRenderer>().material = specular;
             this.GetComponent<Light>().enabled = true;
+            Particles.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha4))
         {
             cube.GetComponent<MeshRenderer>().material = specularAmb;
             this.GetComponent<Light>().enabled = true;
+            Particles.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha5))
         { 
-            cube.GetComponent<MeshRenderer>().material = hologram;
+            cube.GetComponent<MeshRenderer>().material = specularAmb;
             this.GetComponent<Light>().enabled = true;
+            Particles.SetActive(true);
         }
 
     }

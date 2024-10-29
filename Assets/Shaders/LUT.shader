@@ -1,8 +1,8 @@
 Shader "LUT"
 {
 	Properties
-	{ _MainTex("Texture", 2D) = "blue" {}
-	_LUT("LUT", 2D) = "orange" {}
+	{ _MainTex("Texture", 2D) = "green" {}
+	_LUT("LUT", 2D) = "blue" {}
 	_Contribution("Contribution", Range(0, 1)) = 1
 	}
 		SubShader
@@ -51,5 +51,6 @@ Shader "LUT"
 	float4 gradedCol = tex2D(_LUT, lutPos);
 	return lerp(col, gradedCol, _Contribution);
 	}
-	ENDCG } }
+	ENDCG } 
+	}
 }
