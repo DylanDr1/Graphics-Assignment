@@ -48,3 +48,52 @@ As for the winning condition, it comes from the player finishing the level and t
 
 
 # Ilumination
+
+The illumination script was done by taking a GameObject, and 3 different materials and setting them all up into a script, allowing them to be changed out whenever the player wanted. This is done by swapping out the material with a given button using MeshRendering and getting the component. In addition enabling and disabling lighting, and setting particles to be active or deactivated.
+
+![Illum](https://github.com/user-attachments/assets/e294e2d9-f641-4620-979d-cd8c13e73e27)
+![IllumCode](https://github.com/user-attachments/assets/b7433d4c-a779-4e5a-a063-c17874d6a6f2)
+
+# Colour Grading
+
+The Colour Grading is done by using a LUT map, and applying it onto the camera, in addition having the LUT Shader Script also allowed the Colour grading to take effect. The swapping was also done via pressing buttons to turn it on and off. Using the certain colour grade that’s in this build allowed the game to have a much older feel to it, having a similar look to some gameboy games, but 3D. In combination with some of the toon shaders used in this level, it really adds to the visual style I’m currently aiming for with the game.
+
+![ColourGrade](https://github.com/user-attachments/assets/ed479c42-ce17-42d0-b5b4-5b7c50bcd817)
+
+
+# Shaders
+
+Toon
+
+Starting off with the main shader being used in the scene, being the toon shader. I decided to go ahead with this shader mainly because I like the look and visual style of those games, and I thought it would mesh well with the colour grading. Right now the toon shader is applied to an NPC at the front of the level, and on the circular platforms, however I’m aiming to make some more basic models and use them to show off the Shader a little bit more.
+
+In terms of how it was used, I used the given toon shader from the lectures as a base, and built off of that, adding in an extra area for the light to be applied to, having this extra area can allow the shader to have a little more visual appeal as well.
+
+![Toon](https://github.com/user-attachments/assets/84b47f53-6c12-4b8d-8ac0-ecb203ee894d)
+
+Hologram
+
+For the second shader adding in the Hologram felt like the correct addition. This shader was applied to an NPC at the front of the level, as well as the moving platforms and the end of level gate. Having it on the moving platforms made it feel more like it was a moving glass floor, and while it wasn’t the original intention to make it feel that way, adding it onto that object looked nice, so keeping it just felt right.
+
+For the implementation of it, using the hologram shader that was provided in the lecture notes was the main base for the shader, however playing around with it a little bit, I increased the rim lighting on it, and increased how bright the center of the Shader was.
+
+![Holo](https://github.com/user-attachments/assets/13cddc50-6511-45b4-8729-6d8e2909dbbe)
+
+# Sources
+
+Toon shader base - Lecture notes
+
+I used the toon shader provided in class as a base so I could properly build on top of it without just starting all the way from scratch. This saved some time, and allowed me to learn a little bit more on how the shader actually works.
+
+Hologram shader - Lecture notes
+
+I used the Hologram shader from the lectures as a base to be able to mess around with it. Since the hologram shader is pretty basic, I only changed a few parts of it. That being the size of the hologram's rim, the colour of the hologram, and the brightness of the hologram. 
+
+Specular lighting - Lecture notes
+
+The specular lighting was also used as a base to be changed around with. This allowed me to learn more about how the lighting model of the shader worked, how it could be changed, and how it could be implemented properly into the scene.
+
+LUT/ScreenCameraShader
+
+I decided to use the LUT shader code provided in class since it worked well with the effect I was trying to achieve, that of course being the old school retro look, mainly by using a lot of lime green for the colour correction. In addition I attempted to go without the screenCameraShader, however I figured that it was a required component of the code, and since the code is so small, I couldn’t figure out a way to go about it a different way. 
+
