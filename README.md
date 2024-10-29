@@ -6,6 +6,16 @@ https://www.youtube.com/watch?v=aoVxDwX6p4U
 
 Dylan Dos Ramos - 100873698  
 
+# Controls
+
+WASD - Movement
+
+Space - Jumping
+
+Top of keyboard 1-5 - Illumination
+
+Top of keyboard 6-7 - Colour Correction off/on (off by default)
+
 
 # Base Game
 
@@ -35,3 +45,6 @@ As for the winning condition, it comes from the player finishing the level and t
 ![Win](https://github.com/user-attachments/assets/98e708d1-4c06-4dd1-89cb-280f4bebee68)
 ![Death](https://github.com/user-attachments/assets/01159866-635c-4be5-ae6e-af6bf4bc3ef9)
 ![End](https://github.com/user-attachments/assets/2d018d2b-2173-42c7-ad00-b2e26b5bc3d3)
+
+
+# Ilumination
