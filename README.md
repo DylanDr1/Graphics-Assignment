@@ -1,4 +1,35 @@
-# Graphics-Assignment
+# Graphics Final Project
+
+(Assignment 1 can be found below the project final section)
+
+## Video Link
+
+## Controls
+
+WASD - Movement
+
+Space - Jumping
+
+Top of keyboard 1-5 - Illumination
+
+Top of keyboard 6-7 - Colour Correction off/on (off by default)
+ 
+Top of keyboard 8-9 - Texture on/off (on by default)
+
+## Updates 
+
+
+## Textures
+
+
+## Visual effects
+
+
+## Sources
+
+
+
+ # Graphics-Assignment 1
  
  # Video Link
 
