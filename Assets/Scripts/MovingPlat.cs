@@ -1,33 +1,26 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 
 public class MovingPlat : MonoBehaviour
 {
+    [SerializeField] private PlatformData platformData;
 
-    [SerializeField] float speed;
-
-    [SerializeField] Transform start, end;
-
-    [SerializeField] float changeDirection;
-
-
-     Transform target, origin;
-     float journeyStartTime;
-     float journeyDistance;
-     bool isPaused;
+    private Transform target, origin;
+    private float journeyStartTime;
+    private float journeyDistance;
+    private bool isPaused;
 
     void Start()
     {
-        origin = start;
-        target = end;
+        origin = platformData.start;
+        target = platformData.end;
         InitializeJourney();
     }
 
     void FixedUpdate()
     {
-        HandleMovement();
+        
+        HandleMovementAndSwitch();
     }
 
     private void InitializeJourney()
@@ -37,19 +30,23 @@ public class MovingPlat : MonoBehaviour
         isPaused = false;
     }
 
-    private void HandleMovement()
+    private void HandleMovementAndSwitch()
     {
+       
         if (!isPaused)
         {
-            if (Vector3.Distance(transform.position, target.position) > 0.01f)
-            {
-                float distanceTraveled = (Time.time - journeyStartTime) * speed;
-                float journeyFraction = distanceTraveled / journeyDistance;
+         
+            float distanceTraveled = (Time.time - journeyStartTime) * platformData.speed;
+            float journeyFraction = distanceTraveled / journeyDistance;
 
+          
+            if (journeyFraction < 1f)
+            {
                 transform.position = Vector3.Lerp(origin.position, target.position, journeyFraction);
             }
             else
             {
+               
                 isPaused = true;
                 StartCoroutine(PauseBeforeDirectionChange());
             }
@@ -58,14 +55,14 @@ public class MovingPlat : MonoBehaviour
 
     private void SwitchDirection()
     {
-        origin = (origin == end) ? start : end;
-        target = (target == start) ? end : start;
-        InitializeJourney();
+      
+        (origin, target) = (target, origin);
+        InitializeJourney();  
     }
 
     private IEnumerator PauseBeforeDirectionChange()
     {
-        yield return new WaitForSeconds(changeDirection);
+        yield return new WaitForSeconds(platformData.changeDirection);
         SwitchDirection();
         isPaused = false;
     }

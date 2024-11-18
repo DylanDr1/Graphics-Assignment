@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Lighting : MonoBehaviour
 {
-   public GameObject cube;
-   public Material Basic;
-   public Material specular;
+    public GameObject cube;
+    public Material Basic;
+    public Material specular;
     public Material specularAmb;
     public GameObject Particles;
 
@@ -38,7 +38,7 @@ public class Lighting : MonoBehaviour
             Particles.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha5))
-        { 
+        {
             cube.GetComponent<MeshRenderer>().material = specularAmb;
             this.GetComponent<Light>().enabled = true;
             Particles.SetActive(true);

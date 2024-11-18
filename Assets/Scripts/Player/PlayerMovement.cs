@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Camera playerCamera;
-    [SerializeField]  float speed = 6f;
-   [SerializeField] float jumpForce = 7f;
-   [SerializeField] float gravity = 10f;
-  [SerializeField] float cameraSensitivity = 2f;
-  [SerializeField] float cameraPitchLimit = 90f;
+    [SerializeField] float speed = 6f;
+    [SerializeField] float jumpForce = 7f;
+    [SerializeField] float gravity = 10f;
+    [SerializeField] float cameraSensitivity = 2f;
+    [SerializeField] float cameraPitchLimit = 90f;
 
     private Vector3 moveDirection = Vector3.zero;
     private float cameraRotationX = 0;
@@ -39,14 +39,14 @@ public class PlayerMovement : MonoBehaviour
         float currentSpeedX = canMove ? speed * Input.GetAxis("Vertical") : 0;
         float currentSpeedZ = canMove ? speed * Input.GetAxis("Horizontal") : 0;
 
-       
+
         moveDirection.x = (forwardMovement * currentSpeedX).x + (rightMovement * currentSpeedZ).x;
         moveDirection.z = (forwardMovement * currentSpeedX).z + (rightMovement * currentSpeedZ).z;
 
-        
+
         if (characterController.isGrounded)
         {
-           
+
             moveDirection.y = 0;
 
             if (Input.GetButton("Jump") && canMove)
@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            
+
             moveDirection.y -= gravity * Time.deltaTime;
         }
 
