@@ -27,7 +27,9 @@ Top of keyboard 8-9 - Texture on/off (on by default)
 
 ## Sources
 
+Wave effect: Original code taken from the lecture. Modified the code to allow for the implementation of an additional texture to give the illusion of foam on the waves. In addition allowed for both textures to scroll, giving it the sense of moving water. 
 
+Water Texture for waves: https://3dtextures.me/2017/12/28/water-001/
 
  # Graphics-Assignment 1
  
