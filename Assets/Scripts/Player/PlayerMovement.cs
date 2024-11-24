@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.tag == "Death")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 

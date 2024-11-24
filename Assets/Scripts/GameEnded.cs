@@ -28,13 +28,23 @@ public class GameEnded : MonoBehaviour
         GameEnd = true;
     }
 
-    public void Retry()
+
+    public void Menu()
     {
         GameEndedUI.SetActive(false);
         Time.timeScale = 1f;
         GameEnd = false;
         SceneManager.LoadScene(0);
+}
+    public void Retry()
+    {
+        GameEndedUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameEnd = false;
+        SceneManager.LoadScene(1);
     }
+
+    
 
     public void Quit()
     {
