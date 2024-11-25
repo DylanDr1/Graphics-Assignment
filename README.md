@@ -30,6 +30,14 @@ Moving Platform
 
 Updated the platform a little bit, unfortunately couldn't manage to get the player to move along it like I wanted to, however I did change how it worked slightly, just so it's a bit more optimized. 
 
+Hologram shader
+
+Edited the Hologram shader to be brighter around the edges as well as have less of a see through hole in the middle of it. I did this because I wanted the ending panel to be a bit more visable, since in the previous version it was hard to see at certain angles, changing this allowed it to be viewed easier.
+
+Toon shader
+
+Changed up the blending of the different sections a bit more, as well as made the darkest part of it a little bit brighter. This change happened because while it was nice to see such a drastic change between the different sections, it was a bit too much overall, so this change made all the sections blend together a little easier.
+
 ## Textures
 
 Applied textures to both the walls and the floors of the level. In addition the waving effect also has a texture applied to it
