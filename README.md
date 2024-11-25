@@ -16,6 +16,10 @@ Top of keyboard 6-7 - Colour Correction off/on (off by default)
  
 Top of keyboard 8-9 - Texture on/off (on by default)
 
+Top of keyboard "- and =". Water texture on/off (On by default)
+
+Near top of keyboard [ and ]. Lens Flare on/off (On by default)
+
 ## Updates 
 
 
