@@ -22,9 +22,17 @@ Near top of keyboard [ and ]. Lens Flare on/off (On by default)
 
 ## Updates 
 
+Movement
+
+Updated the movement slightly to flow better and for the player to move a little bit faster, as well as jump higher. This was done because I felt that the movement felt a little slow at certain points, so increasing it felt right.
+
+Moving Platform
+
+Updated the platform a little bit, unfortunately couldn't manage to get the player to move along it like I wanted to, however I did change how it worked slightly, just so it's a bit more optimized. 
 
 ## Textures
 
+Applied textures to both the walls and the floors of the level. In addition the waving effect also has a texture applied to it
 
 ## Visual effects
 
@@ -34,6 +42,8 @@ Near top of keyboard [ and ]. Lens Flare on/off (On by default)
 Wave effect: Original code taken from the lecture. Modified the code to allow for the implementation of an additional texture to give the illusion of foam on the waves. In addition allowed for both textures to scroll, giving it the sense of moving water. 
 
 Water Texture for waves: https://3dtextures.me/2017/12/28/water-001/
+
+Photoshop: Used Photoshop for developing the textures
 
  # Graphics-Assignment 1
  
