@@ -102,7 +102,7 @@ As for the visual effects, the first one added into the game uses the wave effec
 
 ![Water2](https://github.com/user-attachments/assets/07f64514-c9b4-4542-8d1b-f25416e49e0d)
 
-The other visual effect that was implemented into the scene, was that of a lens flare, now I decided on this one because I thought it added a nice value to the scene, having a lens flare simply made the lighting look a little bit better than without it, so adding this in improved the scene slightly. 
+The other visual effect that was implemented into the scene, was that of a lens flare, now I decided on this one because I thought it added a nice value to the scene, having a lens flare simply made the lighting look a little bit better than without it, so adding this in improved the scene slightly. This was also done by applying a lens flare effect onto the players camera, and also applying a flare layer ontop of that, these are both important, since if its not attached to the camera, it won't appear for the player, in addition, the flare layer actually makes it viewable in gameplay, as without it the camera isn't able to see it.
 
 ![LensFlare](https://github.com/user-attachments/assets/9aee2beb-d5b8-48e5-bf04-c73d0604a231)
 
