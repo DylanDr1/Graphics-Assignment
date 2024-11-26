@@ -53,7 +53,27 @@ After:
 
 ## Textures
 
-Applied textures to both the walls and the floors of the level. In addition the waving effect also has a texture applied to it
+Applied textures to both the walls, floors and the poles at the end of the level. In addition the waving effect also has a texture applied to it. These textures were applied because having a plain colour on the walls and floor made the scene look fairly pooring, so having textures on those objects made them stand out a little bit more then they did prior. 
+
+In addition the colour pallete used mainly consisted of red, and green colours, this still keeps the colour I was going for before, which are bright simple colours. Doing this kept the style of old school platformers, in which most had bright colours in them.
+
+Lastly the water texture at the bottom uses a pre existing texture, since i'm not the best at art, the original texture is credited at the bottom with sources for this section. I still decided to go along with this, because as i'll explain again in the visual effects, I wanted to implement a better way for the player to visualize the death barrier, since having just a random death plane didn't look the best, so instead the player falling into water just felt better for this scene.
+
+Floor texture:
+
+![BrickCustom2](https://github.com/user-attachments/assets/457005a5-1f03-4f80-af18-8a5ac947c2ba)
+
+Wall texture:
+
+![BrickCustom](https://github.com/user-attachments/assets/050f0bf2-32fe-4cf1-aa6e-ac633b612afc)
+
+pole texture:
+
+![Pole](https://github.com/user-attachments/assets/25df50b5-7da4-4490-8594-195c10183b75)
+
+Water texture:
+
+![Water_001_COLOR](https://github.com/user-attachments/assets/b6482454-d3f7-443a-b05b-55b0157e86fc)
 
 ## Visual effects
 
