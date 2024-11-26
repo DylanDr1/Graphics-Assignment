@@ -19,7 +19,7 @@ public class MovingPlat : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+
         HandleMovementAndSwitch();
     }
 
@@ -32,21 +32,21 @@ public class MovingPlat : MonoBehaviour
 
     private void HandleMovementAndSwitch()
     {
-       
+
         if (!isPaused)
         {
-         
+
             float distanceTraveled = (Time.time - journeyStartTime) * platformData.speed;
             float journeyFraction = distanceTraveled / journeyDistance;
 
-          
+
             if (journeyFraction < 1f)
             {
                 transform.position = Vector3.Lerp(origin.position, target.position, journeyFraction);
             }
             else
             {
-               
+
                 isPaused = true;
                 StartCoroutine(PauseBeforeDirectionChange());
             }
@@ -55,9 +55,9 @@ public class MovingPlat : MonoBehaviour
 
     private void SwitchDirection()
     {
-      
+
         (origin, target) = (target, origin);
-        InitializeJourney();  
+        InitializeJourney();
     }
 
     private IEnumerator PauseBeforeDirectionChange()
