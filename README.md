@@ -63,6 +63,8 @@ Debug commands were also added in, so by pressing certain buttons textures can b
 
 ![TexturesDiagram](https://github.com/user-attachments/assets/6a6c330f-e7da-40a0-9803-eba63e69c135)
 
+![Texture](https://github.com/user-attachments/assets/46c433ff-d965-47e0-bf16-e469fe7d025c)
+
 Floor texture:
 
 ![BrickCustom2](https://github.com/user-attachments/assets/457005a5-1f03-4f80-af18-8a5ac947c2ba)
