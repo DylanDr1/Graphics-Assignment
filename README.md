@@ -16,9 +16,8 @@ Top of keyboard 6-7 - Colour Correction off/on (off by default)
  
 Top of keyboard 8-9 - Texture on/off (on by default)
 
-Top of keyboard "- and =". Water texture on/off (On by default)
+Top of keyboard "- and =". Effects on/off (On by default)
 
-Near top of keyboard [ and ]. Lens Flare on/off (On by default)
 
 ## Updates 
 
@@ -28,15 +27,29 @@ Updated the movement slightly to flow better and for the player to move a little
 
 Moving Platform
 
-Updated the platform a little bit, unfortunately couldn't manage to get the player to move along it like I wanted to, however I did change how it worked slightly, just so it's a bit more optimized. 
+Updated the platform a little bit, unfortunately couldn't manage to get the player to move along it like I wanted to, however I did change how it worked slightly, just so it's a bit more optimized. This also allowed for the implementation of moving platforms to be added in at a much faster and easier pace.
+
+![Data](https://github.com/user-attachments/assets/4c1cedfc-af68-460c-95be-ff3744e3b63c)
 
 Hologram shader
 
 Edited the Hologram shader to be brighter around the edges as well as have less of a see through hole in the middle of it. I did this because I wanted the ending panel to be a bit more visable, since in the previous version it was hard to see at certain angles, changing this allowed it to be viewed easier.
 
+Before:
+![Hologram before](https://github.com/user-attachments/assets/80a2523e-4f49-49a4-a6ab-4c607f1659d1)
+
+After:
+![Holoafter](https://github.com/user-attachments/assets/185fb141-78b0-4f62-8844-20f600534925)
+
 Toon shader
 
 Changed up the blending of the different sections a bit more, as well as made the darkest part of it a little bit brighter. This change happened because while it was nice to see such a drastic change between the different sections, it was a bit too much overall, so this change made all the sections blend together a little easier.
+
+Before:
+![OldToon](https://github.com/user-attachments/assets/85aec891-34ba-4449-9b05-70360831ed5c)
+
+After:
+![NewToon](https://github.com/user-attachments/assets/fa3c98e3-2536-497b-9fc4-c831bb6def58)
 
 ## Textures
 
