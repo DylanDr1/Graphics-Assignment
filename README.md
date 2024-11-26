@@ -90,6 +90,8 @@ Wave effect: Original code taken from the lecture. Modified the code to allow fo
 
 Water Texture for waves: https://3dtextures.me/2017/12/28/water-001/
 
+Water texture was used because I wasn't confident enough in my artistic skills to portray the look of water, this texture was also provided in class, so I felt that it was good enough to use for this project.  
+
 Photoshop: Used Photoshop for developing the textures
 
  # Graphics-Assignment 1
