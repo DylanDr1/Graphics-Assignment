@@ -4,6 +4,8 @@
 
 ## Video Link
 
+Dylan Dos Ramos - 100873698  
+
 ## Controls
 
 WASD - Movement
@@ -83,7 +85,19 @@ Water texture:
 
 ## Visual effects
 
-As for the visual effects, the first one added into the game uses the wave effect seen in class, however, it's changed around 
+As for the visual effects, the first one added into the game uses the wave effect seen in class, however, it's changed around. The one in class simply moved up and down in a fairly small interval. However with this updated one, it allows for the movement and speed of the wave to be at a greater degree, and allows for a more accurate and less sharp wave for the effect. In addition, this effect also scrolls across the plane, allowing for it to look even more like a wave. As stated previously, this effect was implemented into the scene because instead of having a simple invisible death barrier, I thought it would be better to have some water moving at the bottom, to give the illusion of the player falling into the water and dying, instead of randomly being teleported back up after a set time.
+
+![Water1](https://github.com/user-attachments/assets/8b732741-0940-4467-8619-a26e497706b1)
+
+![Water2](https://github.com/user-attachments/assets/07f64514-c9b4-4542-8d1b-f25416e49e0d)
+
+The other visual effect that was implemented into the scene, was that of a lens flare, now I decided on this one because I thought it added a nice value to the scene, having a lens flare simply made the lighting look a little bit better than without it, so adding this in improved the scene slightly. 
+
+![LensFlare](https://github.com/user-attachments/assets/9aee2beb-d5b8-48e5-bf04-c73d0604a231)
+
+In addition, the visual effects can be toggled on and off by pressing the Debug keys found at the top of the ReadME
+![effects](https://github.com/user-attachments/assets/83dd2591-a50a-4924-93a9-afe18a61683d)
+
 
 ## Sources
 
