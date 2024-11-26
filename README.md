@@ -83,6 +83,7 @@ Water texture:
 
 ## Visual effects
 
+As for the visual effects, the first one added into the game uses the wave effect seen in class, however, it's changed around 
 
 ## Sources
 
