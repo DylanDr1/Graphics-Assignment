@@ -67,13 +67,24 @@ Debug commands were also added in, so by pressing certain buttons textures can b
 
 ![Texture](https://github.com/user-attachments/assets/46c433ff-d965-47e0-bf16-e469fe7d025c)
 
+In game floor:
+
+![FloorGame](https://github.com/user-attachments/assets/c7db9a66-5749-4a47-a309-541f52235517)
+
 Floor texture:
 
 ![BrickCustom2](https://github.com/user-attachments/assets/457005a5-1f03-4f80-af18-8a5ac947c2ba)
 
+In game wall:
+![WallGame](https://github.com/user-attachments/assets/667e67fa-a6c2-470b-a05d-b6fdf182f7e5)
+
 Wall texture:
 
 ![BrickCustom](https://github.com/user-attachments/assets/050f0bf2-32fe-4cf1-aa6e-ac633b612afc)
+
+In game pole:
+
+![PoleGame](https://github.com/user-attachments/assets/fba8a52c-bec6-41ae-8652-a5fe1656c6e5)
 
 pole texture:
 
