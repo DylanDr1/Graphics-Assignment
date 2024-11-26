@@ -15,22 +15,12 @@ public class WaterChanger : MonoBehaviour
         if (Input.GetKey(KeyCode.Minus))
         {
             Water.GetComponent<MeshRenderer>().material = WaterTexture;
+            Lens.enabled = true;
 
         }
         if (Input.GetKey(KeyCode.Equals))
         {
             Water.GetComponent<MeshRenderer>().material = basic;
- 
-        }
-
-        if (Input.GetKey(KeyCode.LeftBracket))
-        {
-            Lens.enabled = true;
-
-        }
-
-        if (Input.GetKey(KeyCode.RightBracket))
-        {
             Lens.enabled = false;
 
         }
