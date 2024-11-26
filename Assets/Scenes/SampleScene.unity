@@ -8210,10 +8210,15 @@ MonoBehaviour:
   Wall4: {fileID: 1359623307}
   Floor1: {fileID: 114299088}
   Floor2: {fileID: 1146355112}
+  Pole1: {fileID: 1702028242}
+  Pole2: {fileID: 934206008}
+  Pole3: {fileID: 1118233035}
   wall: {fileID: 2100000, guid: e3e63e8b9dadb1a4b8bbe1fee61ab4c5, type: 2}
   floor: {fileID: 2100000, guid: a4ecec5692ff1c941ba83ce02ee5b320, type: 2}
   wall2: {fileID: 2100000, guid: c43c2a03c4018b249bcd7708b39eb617, type: 2}
   floor2: {fileID: 2100000, guid: ee99761241071da4eb98dfe26d1fda0a, type: 2}
+  pole: {fileID: 2100000, guid: 57bf953a7c6460f44956ff2146b81dca, type: 2}
+  pole2: {fileID: 2100000, guid: ee99761241071da4eb98dfe26d1fda0a, type: 2}
 --- !u!4 &1566226382
 Transform:
   m_ObjectHideFlags: 0
